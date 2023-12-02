@@ -5,7 +5,7 @@
     "mongoose": "^8.0.0",
     "punycode": "^2.3.1"
   },
-  "name": "service-catalog",
+  "name": "service-catalog2",
   "description": "Microservice to display a product catalog",
   "version": "1.0.0",
   "main": "index.js",

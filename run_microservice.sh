@@ -14,7 +14,7 @@ eval $(minikube -p minikube docker-env)
 
 # Build Docker image
 echo "Building Docker image for service-catalog..."
-docker build --rm -t service-catalog .
+docker build --rm -t service-catalog "./tempRepo"
 
 # Apply Kubernetes deployment
 echo "Applying Kubernetes deployment..."
